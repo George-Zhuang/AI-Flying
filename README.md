@@ -1,6 +1,10 @@
 # AI-Flying
 An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
+
+## :bird: Bird flock
+* (*Nature communication*) Behavioural plasticity and the transition to order in jackdaw flocks. [[paper]](https://www.nature.com/articles/s41467-019-13281-4)
+* (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
 ## Recommended resources
 <!-- Parts of this work include video footage from links below, which have been used for academic purposes. We would like to acknowledge and thank the authors for providing these valuable resources -->
 * [Earthflight](https://www.amazon.co.uk/Earth-Flight-Season-1/dp/B00HXENBQG) -- BBC, 2011, 6 episodes.
