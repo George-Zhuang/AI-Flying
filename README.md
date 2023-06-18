@@ -6,16 +6,21 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (*Nature communication*) Behavioural plasticity and the transition to order in jackdaw flocks. [[paper]](https://www.nature.com/articles/s41467-019-13281-4)
 * (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
 
-## 🧑‍🤝‍🧑 Related: Object Tracking
+## 📓 Related works
+### 🧑‍🤝‍🧑 Object Tracking
 ### 2023 CVPR 
 * Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
-> New task: track multiple deformable objects using smart glasses.
+> New task: track multiple deformable objects using smart glasses. \
 > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses.
 
 * Referring Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Wu_Referring_Multi-Object_Tracking_CVPR_2023_paper.html)[[project]](https://referringmot.github.io)
-> New task: employ a language expression as a semantic cue to track specific objects.
+> New task: employ a language expression as a semantic cue to track specific objects. \
 > New dataset: Refer-KITTI, 18 videos with 818 expressions
 
+### 2020 NeurIPS
+* Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
+> Task: obtain the correspondence of image patches by unsupervised learning \
+> from a palindrome sequence, where the query and target are the same.  
 
 ## Recommended resources
 <!-- Parts of this work include video footage from links below, which have been used for academic purposes. We would like to acknowledge and thank the authors for providing these valuable resources -->
