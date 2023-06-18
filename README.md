@@ -18,7 +18,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 > New dataset: Refer-KITTI, 18 videos with 818 expressions
 
 * MotionTrack: Learning Robust Short-term and Long-term Motions for Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_MotionTrack_Learning_Robust_Short-Term_and_Long-Term_Motions_for_Multi-Object_Tracking_CVPR_2023_paper.pdf)
-> Task: associate detected objects between frames by modeling object motion with attention. \ 
+> Task: associate detected objects between frames by modeling object motion with attention.  \
 > Comments: embedding object motion into latent space is inspiring.
 
 ### 2020 NeurIPS
