@@ -1,6 +1,9 @@
-# AI-Flying
+<div align="center">
+<img src="./assets/icon.svg" width = "200" >
+</div>
+<div align="center">
 An introduction to AI methods for flying agents (birds, UAVs, etc.)
-
+</div>
 
 ## :bird: Bird flock
 * (*Nature communication*) Behavioural plasticity and the transition to order in jackdaw flocks. [[paper]](https://www.nature.com/articles/s41467-019-13281-4)
