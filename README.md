@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./assets/icon.svg" width = "200" >
+<img src="./assets/icon.jpg" width = "200" >
 </div>
 <div align="center">
 An introduction to AI methods for flying agents (birds, UAVs, etc.)
