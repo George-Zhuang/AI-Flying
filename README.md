@@ -27,7 +27,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
 > Task: associate detected objects between frames by pseodo-depth. \
-> ✨: rseodo-depth ordering.
+> ✨: pseudo-depth ordering.
 
 ### 🏃 Point tracking and others
 
