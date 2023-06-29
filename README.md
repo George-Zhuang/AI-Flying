@@ -13,12 +13,12 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 ### 👬 Multi-object tracking
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
 > New task: track multiple deformable objects using smart glasses. \
-> New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses.
+> New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. \
 > ✨: Treat a new task from specific to general, while write a paper in an opposite way.
 
 * (2023 CVPR) Referring Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Wu_Referring_Multi-Object_Tracking_CVPR_2023_paper.html)[[project]](https://referringmot.github.io)
 > New task: employ a language expression as a semantic cue to track specific objects. \
-> New dataset: Refer-KITTI, 18 videos with 818 expressions
+> New dataset: Refer-KITTI, 18 videos with 818 expressions. \
 > ✨: multi-model, visual-language.
 
 * (2023 CVPR) MotionTrack: Learning Robust Short-term and Long-term Motions for Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_MotionTrack_Learning_Robust_Short-Term_and_Long-Term_Motions_for_Multi-Object_Tracking_CVPR_2023_paper.pdf)
