@@ -37,7 +37,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 * (2020 NeurIPS) Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
 > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. \
-> ✨: Unsupervised learning from a palindrome sequence. 
+> ✨: unsupervised learning from a palindrome sequence. 
 
 ## 📽️ Recommended resources
 <!-- Parts of this work include video footage from links below, which have been used for academic purposes. We would like to acknowledge and thank the authors for providing these valuable resources -->
