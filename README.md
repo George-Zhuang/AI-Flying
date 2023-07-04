@@ -5,6 +5,10 @@
 An introduction to AI methods for flying agents (birds, UAVs, etc.)
 </div>
 
+## 📰 News
+
+* 🚀 (2023/07/04) We present SAM-DA [[paper]](https://arxiv.org/abs/2307.01024) [[project]](https://github.com/vision4robotics/SAM-DA), a SAM-powered domain adaptation method for nighttime UAV tracking! With only **2.4** hours of training, the performance surpasses baseline with 12 hours of training, enabling the rapid deployment of nighttime UAV trakcing methods!
+  
 ## :bird: Bird flock
 * (*Nature communication*) Behavioural plasticity and the transition to order in jackdaw flocks. [[paper]](https://www.nature.com/articles/s41467-019-13281-4)
 * (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
@@ -13,31 +17,32 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 ### 👬 Multi-object tracking
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
 > New task: track multiple deformable objects using smart glasses. \
-> New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. \
-> ✨: Treat a new task from specific to general, while write a paper in an opposite way.
+> New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
+> 
+<!-- ✨: Treat a new task from specific to general, while write a paper in an opposite way. -->
 
 * (2023 CVPR) Referring Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Wu_Referring_Multi-Object_Tracking_CVPR_2023_paper.html)[[project]](https://referringmot.github.io)
 > New task: employ a language expression as a semantic cue to track specific objects. \
-> New dataset: Refer-KITTI, 18 videos with 818 expressions. \
-> ✨: multi-model, visual-language.
+> New dataset: Refer-KITTI, 18 videos with 818 expressions. 
+<!-- ✨: multi-model, visual-language. -->
 
 * (2023 CVPR) MotionTrack: Learning Robust Short-term and Long-term Motions for Multi-Object Tracking. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Qin_MotionTrack_Learning_Robust_Short-Term_and_Long-Term_Motions_for_Multi-Object_Tracking_CVPR_2023_paper.pdf)
-> Task: associate detected objects between frames by modeling object motion with attention.  \
-> ✨: embedding object motion into latent space.
+> Task: associate detected objects between frames by modeling object motion with attention.  
+<!-- ✨: embedding object motion into latent space. -->
 
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
-> Task: associate detected objects between frames by pseodo-depth. \
-> ✨: pseudo-depth ordering.
+> Task: associate detected objects between frames by pseodo-depth. 
+<!-- ✨: pseudo-depth ordering. -->
 
 ### 🏃 Point tracking and others
 
 * (2023 arxiv) Tracking Everything Everywhere All at Once. [[paper]](https://arxiv.org/abs/2306.05422)[[project]](https://omnimotion.github.io/)
-> New task: estimate dense and long-range motion from a video sequence during inference. \
-> ✨: a canonical 3D volume to represent 2D video.
+> New task: estimate dense and long-range motion from a video sequence during inference. 
+<!-- ✨: a canonical 3D volume to represent 2D video. -->
 
 * (2020 NeurIPS) Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
 > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. \
-> ✨: unsupervised learning from a palindrome sequence. 
+<!-- ✨: unsupervised learning from a palindrome sequence. -->
 
 ## 📽️ Recommended resources
 <!-- Parts of this work include video footage from links below, which have been used for academic purposes. We would like to acknowledge and thank the authors for providing these valuable resources -->
