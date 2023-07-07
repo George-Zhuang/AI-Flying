@@ -30,9 +30,13 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 > Task: associate detected objects between frames by modeling object motion with attention.  
 <!-- ✨: embedding object motion into latent space. -->
 
+* (2023 CVPR) UTM: A Unified Multiple Object Tracking Model with Identity-Aware Feature Enhancement. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/You_UTM_A_Unified_Multiple_Object_Tracking_Model_With_Identity-Aware_Feature_CVPR_2023_paper.pdf)
+> Task: associate detected objects between frames by modeling object motion with attention.  
+<!-- ✨: embedding object motion into latent space. -->
+
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
-> Task: associate detected objects between frames by pseodo-depth. 
-<!-- ✨: pseudo-depth ordering. -->
+> Task: combine identity learning with detection.
+
 
 ### 🏃 Point tracking and others
 
