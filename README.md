@@ -13,6 +13,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
   - [👬 Multi-object tracking](#-multi-object-tracking)
   - [🏃 Point tracking and others](#-point-tracking-and-others)
 - [📽️ Recommended resources](#️-recommended-resources)
+- [🙏 Acknowledgement](#-acknowledgement)
 
 
 ## 📰 News
@@ -26,6 +27,11 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 ## 📓 Related works
 ### 👬 Multi-object tracking
+
+<div align="center">
+<img src="./assets/mot.jpg" width = "800" >
+</div>
+
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
     > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
@@ -66,3 +72,8 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
     > "A British nature documentary that shows a flight from the view of the wings of birds across six continents, showing some of the world's greatest natural spectacles from a bird's-eye view. The BBC series was created by John Downer and narrated by David Tennant and consisted of six 60-minute episodes. The first episode aired on BBC One on 29 December 2011." -- from [Wikipedia](https://en.wikipedia.org/wiki/Earthflight)
 * [IOC World Bird List](https://www.worldbirdnames.org/new/) -- International Ornithological Congress, updating
     > "The IOC World Bird List is an open access resource of the international community of ornithologists. Our primary goal is to facilitate worldwide communication in ornithology and conservation based on an up-to-date evolutionary classification of world birds and a set of English names that follow explicit guidelines for spelling and construction." --from [IOC World Bird List](https://www.worldbirdnames.org/new/)
+    
+## 🙏 Acknowledgement
+* The icon is partly supported by [Stable Diffusion](https://stablediffusionweb.com/).
+* Multi-object tracking section refers to [awesome-multiple-object-tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking).
+* The mind map of MOT is supported by [Coggle](https://coggle.it/).
