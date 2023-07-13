@@ -10,7 +10,9 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 - [📰 News](#-news)
 - [:bird: Bird flock](#bird-bird-flock)
 - [📓 Related works](#-related-works)
-  - [👬 Multi-object tracking](#-multi-object-tracking)
+  - [👬 Awesome multi-object tracking](#-awesome-multi-object-tracking)
+    - [2023](#2023)
+    - [2022](#2022)
   - [🏃 Point tracking and others](#-point-tracking-and-others)
 - [📽️ Recommended resources](#️-recommended-resources)
 - [🙏 Acknowledgement](#-acknowledgement)
@@ -26,12 +28,15 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
 
 ## 📓 Related works
-### 👬 Multi-object tracking
+### 👬 Awesome multi-object tracking
 
 <div align="center">
 <img src="./assets/mot.jpg" width = "800" >
 </div>
 
+***
+
+#### 2023
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
     > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
@@ -52,6 +57,11 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
     > Task: combine identity learning with detection.
 
+#### 2022
+* (2022 ECCV) ByteTrack: Multi-Object Tracking by Associating Every Detection Box. [[paper]](https://arxiv.org/abs/2110.06864)[[project]](https://github.com/ifzhang/ByteTrack)
+    > Task: using YOLOX as a strong detector.
+* (2022 ECCV) Tracking Objects as Pixel-wise Distributions. [[paper]](https://arxiv.org/abs/2207.05518)[[project]](https://github.com/dvlab-research/ECCV22-P3AFormer-Tracking-Objects-as-Pixel-wise-Distributions)
+    > Task: propagates pixel-wise features guided by flow information to pass messages between frames.
 
 ### 🏃 Point tracking and others
 
@@ -65,7 +75,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
     > Task: Long-range motion estimation using dense cost maps, iterative optimization, and learned appearance updates. 
 
 * (2020 NeurIPS) Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
-    > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. \
+    > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. 
 
 ## 📽️ Recommended resources
 * [Earthflight](https://www.amazon.co.uk/Earth-Flight-Season-1/dp/B00HXENBQG) -- BBC, 2011, 6 episodes.
@@ -75,5 +85,5 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
     
 ## 🙏 Acknowledgement
 * The icon is partly supported by [Stable Diffusion](https://stablediffusionweb.com/).
-* Multi-object tracking section refers to [awesome-multiple-object-tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking).
+* Part of multi-object tracking section refers to [awesome-multiple-object-tracking](https://github.com/luanshiyinyang/awesome-multiple-object-tracking).
 * The mind map of MOT is supported by [Coggle](https://coggle.it/).
