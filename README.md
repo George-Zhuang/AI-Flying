@@ -13,7 +13,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
   - [👬 Awesome multi-object tracking](#-awesome-multi-object-tracking)
     - [2023](#2023)
     - [2022](#2022)
-  - [🏃 Point tracking and others](#-point-tracking-and-others)
+  - [🏃 Awesome tracking any point](#-awesome-tracking-any-point)
 - [📽️ Recommended resources](#️-recommended-resources)
 - [🙏 Acknowledgement](#-acknowledgement)
 
@@ -63,7 +63,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2022 ECCV) Tracking Objects as Pixel-wise Distributions. [[paper]](https://arxiv.org/abs/2207.05518)[[project]](https://github.com/dvlab-research/ECCV22-P3AFormer-Tracking-Objects-as-Pixel-wise-Distributions)
     > Task: propagates pixel-wise features guided by flow information to pass messages between frames.
 
-### 🏃 Point tracking and others
+### 🏃 Awesome tracking any point
 
 * (2023 arxiv) Tracking Everything Everywhere All at Once. [[paper]](https://arxiv.org/abs/2306.05422)[[project]](https://omnimotion.github.io/)
     > New task: estimate dense and long-range motion from a video sequence during inference. 
