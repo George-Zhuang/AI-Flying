@@ -37,6 +37,9 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 ***
 
+<details>
+<summary> <b> 2023 awesome mot paper </b> </summary>
+
 **2023**
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
@@ -57,6 +60,10 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
     > Task: combine identity learning with detection.
+</details>
+
+<details>
+<summary> <b> 2022 awesome mot paper </b> </summary>
 
 **2022**
 * (2022 ECCV) ByteTrack: Multi-Object Tracking by Associating Every Detection Box. [[paper]](https://arxiv.org/abs/2110.06864)[[project]](https://github.com/ifzhang/ByteTrack)
@@ -64,10 +71,17 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2022 ECCV) Tracking Objects as Pixel-wise Distributions. [[paper]](https://arxiv.org/abs/2207.05518)[[project]](https://github.com/dvlab-research/ECCV22-P3AFormer-Tracking-Objects-as-Pixel-wise-Distributions)
     > Task: propagates pixel-wise features guided by flow information to pass messages between frames.
 
+</details>
+
 ### 🏃 Awesome tracking any point (TAP)
 
 <!--put a bird tap demo here-->
 <!--put a tap mind map here-->
+<div align="center">
+<img src="./assets/tap.jpg" width = "800" >
+</div>
+
+***
 
 * (2023 arxiv) CoTracker: It is Better to Track Together. [[paper]](https://arxiv.org/abs/2307.07635)[[project]](https://co-tracker.github.io/)
     > Task: jointly track multiple points throughout an entire video.
