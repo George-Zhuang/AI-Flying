@@ -10,10 +10,9 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 - [📰 News](#-news)
 - [:bird: Bird flock](#bird-bird-flock)
 - [📓 Related works](#-related-works)
-  - [👬 Awesome multi-object tracking](#-awesome-multi-object-tracking)
-    - [2023](#2023)
-    - [2022](#2022)
-  - [🏃 Awesome tracking any point](#-awesome-tracking-any-point)
+  - [👬 Awesome multi-object tracking (MOT)](#-awesome-multi-object-tracking-mot)
+  - [🏃 Awesome tracking any point (TAP)](#-awesome-tracking-any-point-tap)
+  - [Others](#others)
 - [📽️ Recommended resources](#️-recommended-resources)
 - [🙏 Acknowledgement](#-acknowledgement)
 
@@ -28,7 +27,9 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
 
 ## 📓 Related works
-### 👬 Awesome multi-object tracking
+### 👬 Awesome multi-object tracking (MOT)
+
+<!--put a bird mot demo here-->
 
 <div align="center">
 <img src="./assets/mot.jpg" width = "800" >
@@ -36,7 +37,7 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 ***
 
-#### 2023
+**2023**
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
     > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
@@ -57,13 +58,19 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2023 arxiv) SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth. [[paper]](https://arxiv.org/pdf/2306.05238.pdf)[[project]](https://github.com/hustvl/SparseTrack)
     > Task: combine identity learning with detection.
 
-#### 2022
+**2022**
 * (2022 ECCV) ByteTrack: Multi-Object Tracking by Associating Every Detection Box. [[paper]](https://arxiv.org/abs/2110.06864)[[project]](https://github.com/ifzhang/ByteTrack)
     > Task: using YOLOX as a strong detector.
 * (2022 ECCV) Tracking Objects as Pixel-wise Distributions. [[paper]](https://arxiv.org/abs/2207.05518)[[project]](https://github.com/dvlab-research/ECCV22-P3AFormer-Tracking-Objects-as-Pixel-wise-Distributions)
     > Task: propagates pixel-wise features guided by flow information to pass messages between frames.
 
-### 🏃 Awesome tracking any point
+### 🏃 Awesome tracking any point (TAP)
+
+<!--put a bird tap demo here-->
+<!--put a tap mind map here-->
+
+* (2023 arxiv) CoTracker: It is Better to Track Together. [[paper]](https://arxiv.org/abs/2307.07635)[[project]](https://co-tracker.github.io/)
+    > Task: jointly track multiple points throughout an entire video.
 
 * (2023 arxiv) Tracking Everything Everywhere All at Once. [[paper]](https://arxiv.org/abs/2306.05422)[[project]](https://omnimotion.github.io/)
     > New task: estimate dense and long-range motion from a video sequence during inference. 
@@ -71,9 +78,15 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2023 arxiv) Segment Anything Meets Point Tracking. [[paper]](https://arxiv.org/abs/2307.01197)[[code]](https://github.com/SysCV/sam-pt)
     > Task: Zero-shot tracking and segmenting anything in dynamic videos, using SAM and PIPs.
 
-* (2022 ECCV oral) Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories. [[paper]](https://arxiv.org/abs/2204.04153)[[code]](https://github.com/aharley/pips)
-    > Task: Long-range motion estimation using dense cost maps, iterative optimization, and learned appearance updates. 
+* (2022 NeurIPS) TAP-Vid: A Benchmark for Tracking Any Point in a Video. [[paper]](https://arxiv.org/abs/2211.03726)[[code]](https://github.com/deepmind/tapnet)
+    > New Task: tracking arbitrary physical points on surfaces over longer video clips. \
+    New benchmark: TAP-Vid, with both real and synthetic videos, including 
+    TAP-Vid-Kinetics, TAP-Vid-DAVIS, TAP-Vid-Kubric, and TAP-Vid-RGB-Stacking.
 
+* (2022 ECCV oral) Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories. [[paper]](https://arxiv.org/abs/2204.04153)[[code]](https://github.com/aharley/pips)
+    > New Task: Long-range motion estimation using dense cost maps, iterative optimization, and learned appearance updates. 
+
+### Others
 * (2020 NeurIPS) Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
     > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. 
 
