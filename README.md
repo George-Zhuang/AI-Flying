@@ -72,11 +72,14 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * (2023 arxiv) CoTracker: It is Better to Track Together. [[paper]](https://arxiv.org/abs/2307.07635)[[project]](https://co-tracker.github.io/)
     > Task: jointly track multiple points throughout an entire video.
 
+* (2023 arxiv) Segment Anything Meets Point Tracking. [[paper]](https://arxiv.org/abs/2307.01197)[[code]](https://github.com/SysCV/sam-pt)
+    > Task: Zero-shot tracking and segmenting anything in dynamic videos, using SAM and PIPs.
+
 * (2023 arxiv) Tracking Everything Everywhere All at Once. [[paper]](https://arxiv.org/abs/2306.05422)[[project]](https://omnimotion.github.io/)
     > New task: estimate dense and long-range motion from a video sequence during inference. 
 
-* (2023 arxiv) Segment Anything Meets Point Tracking. [[paper]](https://arxiv.org/abs/2307.01197)[[code]](https://github.com/SysCV/sam-pt)
-    > Task: Zero-shot tracking and segmenting anything in dynamic videos, using SAM and PIPs.
+* (2023 arxiv) TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement. [[paper]](https://arxiv.org/abs/2306.08637)[[project]](https://github.com/deepmind/tapnet)
+    > New task: online and fast point tracking with matching and refinement.
 
 * (2022 NeurIPS) TAP-Vid: A Benchmark for Tracking Any Point in a Video. [[paper]](https://arxiv.org/abs/2211.03726)[[code]](https://github.com/deepmind/tapnet)
     > New Task: tracking arbitrary physical points on surfaces over longer video clips. \
