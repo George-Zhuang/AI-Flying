@@ -23,8 +23,14 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 * 🚀 (2023/07/04) We present **SAM-DA** [[paper]](https://arxiv.org/abs/2307.01024) [[project]](https://github.com/vision4robotics/SAM-DA), a SAM-powered domain adaptation method for nighttime UAV tracking! With only **2.4** hours of training, the performance surpasses baseline with 12 hours of training, enabling the rapid deployment of nighttime UAV trakcing methods!
   
 ## :bird: Bird flock
+
+<details>
+<summary> <b> Awesome bird paper </b> </summary>
+
 * (*Nature communication*) Behavioural plasticity and the transition to order in jackdaw flocks. [[paper]](https://www.nature.com/articles/s41467-019-13281-4)
 * (*Nature ecology & evolution*) Costs and benefits of social relationships in the collective motion of bird flocks. [[paper]](https://www.nature.com/articles/s41559-019-0891-5)
+* 
+</details>
 
 ## 📓 Related works
 ### 👬 Awesome multi-object tracking (MOT)
@@ -40,7 +46,6 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 <details>
 <summary> <b> 2023 awesome mot paper </b> </summary>
 
-**2023**
 * (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
     > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
@@ -82,6 +87,8 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 </div>
 
 ***
+<details>
+<summary> <b> 2023 awesome tap paper </b> </summary>
 
 * (2023 arxiv) CoTracker: It is Better to Track Together. [[paper]](https://arxiv.org/abs/2307.07635)[[project]](https://co-tracker.github.io/)
     > Task: jointly track multiple points throughout an entire video.
@@ -94,6 +101,10 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 * (2023 arxiv) TAPIR: Tracking Any Point with per-frame Initialization and temporal Refinement. [[paper]](https://arxiv.org/abs/2306.08637)[[project]](https://github.com/deepmind/tapnet)
     > New task: online and fast point tracking with matching and refinement.
+</details>
+
+<details>
+<summary> <b> 2022 awesome tap paper </b> </summary>
 
 * (2022 NeurIPS) TAP-Vid: A Benchmark for Tracking Any Point in a Video. [[paper]](https://arxiv.org/abs/2211.03726)[[code]](https://github.com/deepmind/tapnet)
     > New Task: tracking arbitrary physical points on surfaces over longer video clips. \
@@ -102,10 +113,14 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 
 * (2022 ECCV oral) Particle Video Revisited: Tracking Through Occlusions Using Point Trajectories. [[paper]](https://arxiv.org/abs/2204.04153)[[code]](https://github.com/aharley/pips)
     > New Task: Long-range motion estimation using dense cost maps, iterative optimization, and learned appearance updates. 
+</details>
 
 ### Others
+<details>
+<summary> <b> 2020 awesome tracking paper </b> </summary>
 * (2020 NeurIPS) Space-Time Correspondence as a Contrastive Random Walk. [[paper]](https://proceedings.neurips.cc/paper/2020/hash/e2ef524fbf3d9fe611d5a8e90fefdc9c-Abstract.html)[[project]](https://ajabri.github.io/videowalk/)
     > Task: obtain the correspondence of image patches by unsupervised learning from a palindrome sequence, where the query and target are the same. 
+</details>
 
 ## 📽️ Recommended resources
 * [Earthflight](https://www.amazon.co.uk/Earth-Flight-Season-1/dp/B00HXENBQG) -- BBC, 2011, 6 episodes.
