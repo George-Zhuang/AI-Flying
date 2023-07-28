@@ -44,9 +44,10 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 ***
 
 <details>
-<summary> <b> 2023 awesome mot paper </b> </summary>
+<summary> <b> 2023 awesome mot paper 
+</b> </summary>
 
-* (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_Multiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
+* (2023 CVPR) Tracking Multiple Deformable Objects in Egocentric Videos. [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Huang_Tracking_sMultiple_Deformable_Objects_in_Egocentric_Videos_CVPR_2023_paper.html)[[project]](https://mingzhenhuang.com/projects/detracker.html)
     > New task: track multiple deformable objects using smart glasses. \
     > New dataset: DogThruGlasses, 150 videos and 73K annotated frames from smart glasses. 
 
@@ -68,9 +69,15 @@ An introduction to AI methods for flying agents (birds, UAVs, etc.)
 </details>
 
 <details>
-<summary> <b> 2022 awesome mot paper </b> </summary>
+<summary> <b> 2022 awesome mot paper 
+</b> </summary>
 
-**2022**
+* (2022 T-PAMI) TransCenter: Transformers with Dense Representations for Multiple-Object Tracking.[[paper]](https://arxiv.org/abs/2103.15145)[[project]](https://gitlab.inria.fr/robotlearn/TransCenter_official)
+    > Task: use dense detection queries and efficient sparse tracking queries for MOT with PVT backbone.
+
+* (2022 CVPR) TrackFormer: Multi-Object Tracking with Transformers. [[paper]](https://arxiv.org/abs/2101.02702) [[project]](https://github.com/timmeinhardt/trackformer)
+    > Task: formulate MOT as a frame-to-frame set prediction problem.
+
 * (2022 ECCV) ByteTrack: Multi-Object Tracking by Associating Every Detection Box. [[paper]](https://arxiv.org/abs/2110.06864)[[project]](https://github.com/ifzhang/ByteTrack)
     > Task: using YOLOX as a strong detector.
 * (2022 ECCV) Tracking Objects as Pixel-wise Distributions. [[paper]](https://arxiv.org/abs/2207.05518)[[project]](https://github.com/dvlab-research/ECCV22-P3AFormer-Tracking-Objects-as-Pixel-wise-Distributions)
